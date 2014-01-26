@@ -77,7 +77,9 @@
         android:layout_alignLeft="@+id/TextView01"
         android:layout_alignRight="@+id/plus"
         android:layout_below="@+id/TextView01"
-        android:layout_marginTop="18dp" />
+        android:layout_marginTop="18dp" 
+        android:max="1000"
+        android:progress="320"/>
 
     <EditText
         android:id="@+id/fahrenheitBox"

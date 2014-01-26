@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
     }
     
     // Go to conversion activity
-    public void goToConverstion(View view)
+    public void goToConversion(View view)
     {
     	Intent conversionView = new Intent(this, ConverterActivity.class);
     	startActivity(conversionView);
